@@ -1,18 +1,19 @@
 <div>
+  <h1>Aisha Belen Macedo Zeballos</h1>
   <h1>Administración de artículos</h1>
   <table border="1" *ngIf="hayRegistros(); else sinarticulos">
     <tr>
       <td>Codigo</td>
       <td>Descripcion</td>
       <td>Precio</td>
-      <td>Borrar</td>
+      <td>Eliminar</td>
       <td>Seleccionar</td>
     </tr>
     <tr *ngFor="let art of articulos">
       <td>{{ art.codigo }}</td>
       <td>{{ art.descripcion }}</td>
       <td>{{ art.precio }}</td>
-      <td><button (click)="borrar(art.codigo)">Borrar?</button></td>
+      <td><button (click)="borrar(art.codigo)">Eliminar</button></td>
       <td><button (click)="seleccionar(art)">Seleccionar</button></td>
     </tr>
   </table>

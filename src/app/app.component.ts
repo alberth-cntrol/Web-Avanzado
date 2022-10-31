@@ -13,11 +13,11 @@ export class AppComponent {
   };
 
   articulos = [
-    { codigo: 1, descripcion: 'papas', precio: 10.55 },
-    { codigo: 2, descripcion: 'manzanas', precio: 12.1 },
-    { codigo: 3, descripcion: 'melon', precio: 52.3 },
-    { codigo: 4, descripcion: 'Alberth', precio: 17 },
-    { codigo: 5, descripcion: 'Castillo', precio: 20 },
+    { codigo: 1, descripcion: 'Aisha Macedo', precio: 0 },
+    { codigo: 2, descripcion: 'Coca-Cola', precio: 2.50 },
+    { codigo: 3, descripcion: 'Freza', precio: 5 },
+    { codigo: 4, descripcion: 'Mora', precio: 6 },
+    { codigo: 5, descripcion: 'Fanta', precio: 2.50 },
   ];
   title: any;
 
