@@ -1,0 +1,11 @@
+<h1> ALberth Nils</h1>
+<hr>
+<h3>{{ nombre }}</h3>
+<button class="btn btn-primary"
+    (click)="cambiarnombre()">
+    
+    Cambair Nombre
+
+</button>
+<hr>
+<app-hijo [nombrehijo]="nombre" (cambioNombreHijo)="nombre=$event"></app-hijo>
